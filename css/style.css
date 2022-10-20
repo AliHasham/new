@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+ }
+ /* .col-xxl-2 {
+    flex: 0 0 auto;
+    width: 0.666667%;
+}  */
+
+ul#menu {
+    display: contents;
+}
+   .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 0px;}
+
+   
+    .col-xxl-1 {
+        flex: 0 0 auto;
+        width: 0;
+    }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////Fist section////////////// */
+
+img.col-xxl-2.p-2 {
+    width: 49px;
+    height: 56px;
+    margin-top: 7px;
+}
+/* ///////////////////////////////////////////////////second section/////////////////////////// */
+.main-between {
+    padding: 10px;
+    background-color: #EFF0FC;
+}
+.card-deck {
+    margin-right: 15px;
+    background-color: white;
+    width: 490px;
+}
+button#btn2 {
+    margin-left: 18px;
+    background-color: #D0EBFB;
+    border-radius: 9px;
+    /* padding: 0px; */
+}
+button.col-xxl-3 {
+    border: none;
+    margin-top: 26px;
+    background-color: #F5F5FB;
+    height: min-content;
+    width: fit-content;
+    color: cornflowerblue;
+}
+.card-body.right {
+    border-radius: 10px;
+    background-color: #F5F5FB;
+    margin-top: 13px;
+    margin-right: 10px;
+    height: 165px;
+    margin-bottom: 13px;
+    margin-left: 12px;
+}
+.image-bottom-card {
+
+    padding: 4px 5px;
+    height: 36px;
+    /* width: 33px; */
+    margin-top: 16px;
+    border-radius: 9px;
+    margin-left: 14px;
+}
+.image-main {
+    padding: 11px;
+    margin-top: 5px;
+}
+.imagearrow {
+    margin-left: 65px;
+}
+.text {
+    padding: 5px;
+    color: white;
+}
+
+.bottom-card-main-1.col-lg-4 {
+    width: fit-content;
+    display: flex;
+    margin: 21px;
+    background-color: #4D4CAC;
+    border-radius: 16px;
+}
+.bottom-card-main-2.col-lg-4 {
+    display: flex;
+    background-color: #6966A2;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 21px;
+}
+.bottom-card-main-3.col-lg-4 {
+    /* margin: 20px 35px; */
+    margin: 21px;
+   
+    display: flex;
+
+    background-color: #FF808B;
+    border-radius: 16px;
+    width: fit-content;
+}
+img.mx-auto.d-block {
+    width: 33px;
+    height: 40px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* .bg-img-img{
+    background-image: url(../image/Icon/bd-home/Rectangle\ 8.png);
+} */
+.img.col.col-xl-2.col-xxl-2.d-flex.p-3 {
+    width: 58px;
+    background-repeat: no-repeat;
+   background-image: url(../image/Icon/bd-home/Rectangle\ 8.png);
+    border-radius: 10px;
+    height: 62px;
+    margin: 6px;
+}
+img.image-card {
+    height: 21px;
+}
+
+img.menu-image {
+    margin: 18px;
+}
+/* ///////////////////////////////////third-sevtion//////////////////// */
+.sidenav {
+ height: 100%;
+ position: fixed;
+    background-color: white;
+/*    
+    height: 100%;
+    width: 300px;
+    
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px; */
+}
+
+.sidenav a {
+
+    /* width: 228px; */
+    display: block;
+    color: black;
+    margin-top: 8px;
+    margin-left: 25px;
+    padding: 9px 10px 8px 35px;
+    text-decoration: none;
+    font-size: 25px;
+} 
+img.image-a-item {
+    margin: 9px;
+}
+.block-text-d {
+    color: #636283;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Poppins";
+
+}
+
+#myhome{
+    display: none;
+}
+
+    /* color: #818181; */
+    /* display: block; */
+    /* transition: 0.3s;
+
+}
+*/
+@media only screen and (max-width: 1245px) {
+
+
+    .sidenav a {
+
+          background-color: white;
+        width: 228px;
+        display: flex;
+        color: #12b1f5;
+        margin-top: 8px;
+        margin-left: 25px;
+        padding: 9px 10px 8px 35px;
+        text-decoration: none;
+        font-size: 25px;
+        
+    }
+
+        .sidenav {
+            margin-top: 70px;
+            height: 0%;
+            position: absolute;
+            background-color: white;
+            animation-iteration-count: 1;
+            animation: mymove 1s ;
+            
+        }
+     
+       /*    
+           height: 100%;
+           width: 300px;
+           
+           z-index: 1;
+           top: 0;
+           left: 0;
+           background-color: white;
+           overflow-x: hidden;
+           transition: 0.5s;
+           padding-top: 10px; */
+
+        
+          
+          
+      
+        
+           .sidenav {animation-timing-function: ease;}
+
+           @keyframes mymove {
+             from {left: 0px;}
+             to {left: 300px;}
+           }
+       
+}

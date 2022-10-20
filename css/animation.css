@@ -1,0 +1,475 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+ }
+ /* .col-xxl-2 {
+    flex: 0 0 auto;
+    width: 0.666667%;
+}  */
+
+ul#menu {
+    display: contents;
+}
+   .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 0px;}
+
+   
+    .col-xxl-1 {
+        flex: 0 0 auto;
+        width: 0;
+    }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////Fist section////////////// */
+
+img.col-xxl-2.p-2 {
+    width: 49px;
+    height: 56px;
+    margin-top: 7px;
+}
+/* ///////////////////////////////////////////////////second section/////////////////////////// */
+.main-between {
+    padding: 10px;
+    background-color: #EFF0FC;
+}
+.card-deck {
+    margin-right: 16px;
+    background-color: white;
+    width: 490px;
+    margin-left: 18px;
+}
+button#btn2 {
+    margin-left: 18px;
+    background-color: #D0EBFB;
+    border-radius: 9px;
+    /* padding: 0px; */
+}
+button.col-xxl-3 {
+    border: none;
+    margin-top: 26px;
+    background-color: #F5F5FB;
+    height: min-content;
+    width: fit-content;
+    color: cornflowerblue;
+}
+.card-body.right {
+    border-radius: 10px;
+    background-color: #F5F5FB;
+    margin-top: 13px;
+    margin-right: 10px;
+    height: 165px;
+    margin-bottom: 13px;
+    margin-left: 12px;
+}
+.image-bottom-card {
+
+    padding: 4px 5px;
+    height: 36px;
+    /* width: 33px; */
+    margin-top: 16px;
+    border-radius: 9px;
+    margin-left: 14px;
+}
+.image-main {
+    padding: 11px;
+    margin-top: 5px;
+}
+.imagearrow {
+    margin-left: 65px;
+}
+.text {
+    padding: 5px;
+    color: white;
+}
+
+.bottom-card-main-1.col-lg-4 {
+    width: fit-content;
+    display: flex;
+    margin: 21px;
+    background-color: #4D4CAC;
+    border-radius: 16px;
+}
+.bottom-card-main-2.col-lg-4 {
+    display: flex;
+    background-color: #6966A2;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 21px;
+}
+.bottom-card-main-3.col-lg-4 {
+    /* margin: 20px 35px; */
+    margin: 21px;
+   
+    display: flex;
+
+    background-color: #FF808B;
+    border-radius: 16px;
+    width: fit-content;
+}
+img.mx-auto.d-block {
+    width: 33px;
+    height: 40px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* .bg-img-img{
+    background-image: url(../image/Icon/bd-home/Rectangle\ 8.png);
+} */
+.img.col.col-xl-2.col-xxl-2.d-flex.p-3 {
+    width: 58px;
+    background-repeat: no-repeat;
+   background-image: url(../image/Icon/bd-home/Rectangle\ 8.png);
+    border-radius: 10px;
+    height: 62px;
+    margin: 6px;
+}
+img.image-card {
+    height: 21px;
+}
+
+img.menu-image {
+    margin: 18px;
+}
+/* ///////////////////////////////////third-sevtion//////////////////// */
+.sidenav {
+ height: 100%;
+ position: fixed;
+    background-color: white;
+/*    
+    height: 100%;
+    width: 300px;
+    
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px; */
+}
+
+.sidenav a {
+
+     width: 273px; 
+    display: block;
+    color: black;
+    margin-top: 8px;
+    margin-left: 25px;
+    padding: 9px 10px 8px 35px;
+    text-decoration: none;
+    font-size: 25px;
+} 
+img.image-a-item {
+    margin: 9px;
+}
+.block-text-d {
+    color: #636283;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Poppins";
+
+}
+
+#myhome{
+    display: none;
+}
+
+    /* color: #818181; */
+    /* display: block; */
+    /* transition: 0.3s;
+
+}
+*/
+
+
+
+
+
+.main-div.col.col-xxl {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url();
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    
+ 
+    -webkit-animation: spin 1s ;
+    -moz-animation: spin 1s ;
+    -ms-animation: spin 1s ;
+    -o-animation: spin 1s ;
+    animation: spin 2s ;
+  }
+  .main-div.col.col-xxl:hover {
+    animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+  }
+  @keyframes spin {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+  }
+  @-webkit-keyframes spin {
+    0% {-webkit-transform: rotate(360deg); }
+    100% { -webkit-transform: rotate(0deg); }
+  }
+  @-ms-keyframes spin {
+    0% {-ms-transform: rotate(360deg); }
+    100% { -ms-transform: rotate(0deg); }
+  }
+  @-moz-keyframes spin {
+    0% { -moz-transform: rotate(360deg); }
+    100% { -moz-transform: rotate(0deg); }
+  }
+  @-o-keyframes spin {
+    0% { -o-transform: rotate(360deg); }
+    100% { -o-transform: rotate(0deg); }
+  }
+
+
+
+
+
+
+  @-webkit-keyframes rotate {
+    0% {
+        -webkit-transform:translate(100px, 100px) rotate(0deg) translate(100px, -100px) rotate(10deg);
+        background-color:rgb(216, 189, 189);
+    }  
+  5% {
+        -webkit-transform:translate(100px, 100px) rotate(45deg) translate(-100px, -100px) rotate(10deg);
+  }
+ 
+ 
+}
+.col-xxl-3.d-flex  {
+ 
+    border-radius:25px;
+
+    -webkit-animation-duration: 6s;
+   
+    -webkit-animation-name:"rotate";
+  
+    
+    left:20%;
+    right:20%; 
+}
+
+
+
+
+
+ 
+  .translateAnimationClass { 
+    
+    
+  }
+
+  .bottom-card-main-1.col-lg-4 {
+    animation-iteration-count: 1;
+    animation: rotator 1s  ;
+   
+    
+    animation: rotator 5s;
+  }
+  .bottom-card-main-2.col-lg-4 {
+    animation-iteration-count: 1;
+    -webkit-animation: rotator 4s;
+    -moz-animation: rotator 4s;
+    -ms-animation: rotator 4s;
+    -o-animation: rotator 4s;
+    animation: rotator 4s;
+  }
+  .bottom-card-main-3.col-lg-4 {
+    animation-iteration-count: 1;
+    -webkit-animation: rotator 4s;
+    -moz-animation: rotator 4s;
+    -ms-animation: rotator 4s;
+    -o-animation: rotator 4s;
+    animation: rotator 4s;
+  }
+
+
+  #btn1 {
+    transform-style: preserve-3d;
+    animation-iteration-count: 1;
+    -webkit-animation: rotator 4s;
+    -moz-animation: rotator 4s;
+    -ms-animation: rotator 4s;
+    -o-animation: rotator 4s;
+    animation: rotator 4s;
+  }
+  
+  @-webkit-keyframes rotator {
+    0%   { transform: rotateX(0deg)    rotateY(0deg);    }
+    100% { transform: rotateX(1080deg) rotateY(360deg);  }
+  }
+ 
+
+
+  .image-card {
+    width: 100px;
+    height: 100px;
+  
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: 1s infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+
+  .palestTulip {fill:#F2AABD;}
+.paleTulip {fill:#F27990;}
+.tulip {fill:#CC2954;}
+.darkTulip {fill:#A51138;}
+.darkestTulip {fill:#7C0826;}
+.mouse {fill:#E5E4E3;}
+
+.turn-01, .turn-02, .turn-03, .turn-04, .turn-05, .turn-06{
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+.turn-01 { animation-name: turnOne;}
+.turn-02 { animation-name: turnTwo;}
+.turn-03 { animation-name: turnThree;}
+.turn-04 { animation-name: turnFour;}
+.turn-05 { animation-name: turnFive;}
+
+@keyframes turnOne {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(180deg);}
+}
+@keyframes turnTwo {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+@keyframes turnThree {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(540deg);}
+}
+@keyframes turnFour{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(720deg);}
+}
+@keyframes turnFive {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(900deg);}
+}
+
+
+
+
+
+div#mylogout {
+   
+    transform-style: preserve-3d;
+    animation: rotate-animation 6s  ;
+    animation-iteration-count: 1s infinite;
+  }
+ 
+  @keyframes rotate-animation {
+    0% { transform: rotateY(360deg) rotateX(360deg); }
+    100% { transform: rotateY(0) rotateX(360deg); }
+  }
+
+
+
+@media only screen and (max-width: 1245px) {
+
+
+    .sidenav a {
+
+        
+        width: 228px;
+        display: flex;
+        color: #12b1f5;
+        margin-top: 8px;
+        margin-left: 25px;
+        padding: 9px 10px 8px 35px;
+        text-decoration: none;
+        font-size: 25px;
+        
+    }
+
+        .sidenav {
+            margin-top: 70px;
+            height: 0%;
+            position: absolute;
+            background-color: white;
+            animation-iteration-count: 1;
+            animation: rotate 1s ;
+         
+            
+        }
+     
+       /*    
+           height: 100%;
+           width: 300px;
+           
+           z-index: 1;
+           top: 0;
+           left: 0;
+           background-color: white;
+           overflow-x: hidden;
+           transition: 0.5s;
+           padding-top: 10px; */
+
+        
+          
+          
+      
+        
+           .sidenav {animation-timing-function:ease }
+           @keyframes rotate {
+            0% {
+              transform: rotate(0);
+            }
+            100% {
+              transform: rotate(60deg);
+            }
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
